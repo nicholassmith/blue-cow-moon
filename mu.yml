@@ -1,6 +1,9 @@
+environments:
+- name: dev
+- name: production
 service:
   name: blue-cow-moon
-  port: 8080
+  port: 5000
   pathPatterns:
   - /*
   pipeline:
