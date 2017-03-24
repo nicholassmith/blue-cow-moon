@@ -1,6 +1,10 @@
 environments:
 - name: dev
+	cluster:
+		maxSize: 2
 - name: production
+	cluster:
+		maxSize: 2
 service:
   name: blue-cow-moon
   port: 5000
