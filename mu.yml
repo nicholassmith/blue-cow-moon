@@ -1,0 +1,9 @@
+service:
+  name: blue-cow-moon
+  port: 8080
+  pathPatterns:
+  - /*
+  pipeline:
+    source:
+      provider: GitHub
+      repo: nicholassmith/blue-cow-moon
