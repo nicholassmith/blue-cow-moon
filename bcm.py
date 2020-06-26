@@ -26,7 +26,7 @@ def generate_plain():
 	domain = []
 	for i in range(0,3):
 		domain.append(words[random.randrange(len(words))])
-	dstring = "-".join(domain)
+	dstring = " ".join(domain)
 	return dstring.replace("'","")
 
 if __name__ == '__main__':
